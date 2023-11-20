@@ -89,7 +89,7 @@ if ($registrants->num_rows > 0)
 {
 echo "<h2>People who are registered:</h2>";
 echo "<table>";
-echo "<tr><th>Name</th>";
+echo "<tr><th>Nameee</th>";
 echo "<th>Email</th>";
 echo "<th>Date</th></tr>";
 while ($registrant = $registrants->fetch_assoc())
