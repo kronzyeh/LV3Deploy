@@ -83,7 +83,7 @@ if ($conn->query($sql_insert) === TRUE)
 {
 echo "<h3>Your're registered!</h3>";
 // // Retrieve data
-$sql_select = "SELECT * FROM registration_tbl";
+$sql_select = "SELECT * FROM register_tbl";
 $registrants = $conn->query($sql_select);
 if ($registrants->num_rows > 0)
 {
