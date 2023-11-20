@@ -2,6 +2,7 @@
 $host = "d1lucic-server.mysql.database.azure.com";
 $user = "btqtbbzhxy";
 $pwd = "Lucic123";
+$db = "ruapdb1";
  // $host = "127.0.0.1:52932";
  // $user = "azure";
  // $pwd = "6#vWHD_$";
