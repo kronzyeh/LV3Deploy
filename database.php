@@ -2,7 +2,6 @@
 $host = "d1lucic-server.mysql.database.azure.com";
 $user = "btqtbbzhxy";
 $pwd = "Lucic123";
-$db = "d1lucic-server";
  // $host = "127.0.0.1:52932";
  // $user = "azure";
  // $pwd = "6#vWHD_$";
@@ -23,7 +22,7 @@ $db = "d1lucic-server";
  echo "Error creating database: " . $conn->error;
  }
  mysqli_select_db($conn,$db);
- $sql_create = "CREATE TABLE registration_tbl(id INT NOT NULL
+ $sql_create = "CREATE TABLE login_tbl(id INT NOT NULL
  AUTO_INCREMENT, PRIMARY KEY(id), name VARCHAR(30), email
  VARCHAR(30), date DATE);";
  if ($conn->query($sql_create) === TRUE) {
